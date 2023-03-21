@@ -1,21 +1,12 @@
-//
-//  ContentView.swift
-//  Food Signs
-//
-//  Created by Josue Rosales on 10/25/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        #if os(iOS)
+            HomeView()
+        #else
+            BasicScreen()
+        #endif
     }
 }
 

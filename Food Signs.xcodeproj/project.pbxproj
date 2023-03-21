@@ -7,19 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1AC0AD290CBDF60026F465 /* BasicScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AC0AC290CBDF60026F465 /* BasicScreenManager.swift */; };
+		8D1AC0B0290CBF8F0026F465 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1AC0AF290CBF8F0026F465 /* FirebaseAuth */; };
+		8D1AC0B2290CBF8F0026F465 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1AC0B1290CBF8F0026F465 /* FirebaseFirestore */; };
+		8D1AC0B4290CBF8F0026F465 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1AC0B3290CBF8F0026F465 /* FirebaseFirestoreSwift */; };
+		8D1AC0B6290CCC5E0026F465 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AC0B5290CCC5E0026F465 /* GoogleService-Info.plist */; };
+		8D1AC0B8290D86D50026F465 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AC0B7290D86D50026F465 /* HomeView.swift */; };
+		8D439670290D9A2800C55178 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43966F290D9A2800C55178 /* Screen.swift */; };
+		8D439672290D9BF900C55178 /* HomeViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D439671290D9BF900C55178 /* HomeViewManager.swift */; };
+		8D439675290DB93C00C55178 /* BasicScreenDumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D439674290DB93C00C55178 /* BasicScreenDumb.swift */; };
+		8D439677290DC53400C55178 /* CopiedStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D439676290DC53400C55178 /* CopiedStuff.swift */; };
+		8D4C2116292315DE0071F0E0 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C2115292315DD0071F0E0 /* EditView.swift */; };
+		8D739FC4290A10780082D838 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D739FC3290A10780082D838 /* Item.swift */; };
 		8DE159BF2908AB7700A94B34 /* Food_SignsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE159BE2908AB7700A94B34 /* Food_SignsApp.swift */; };
 		8DE159C12908AB7700A94B34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE159C02908AB7700A94B34 /* ContentView.swift */; };
 		8DE159C32908AB7900A94B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE159C22908AB7900A94B34 /* Assets.xcassets */; };
 		8DE159C72908AB7900A94B34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE159C62908AB7900A94B34 /* Preview Assets.xcassets */; };
+		8DE159D22908ABFC00A94B34 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE159D12908ABFC00A94B34 /* AnimatedBackground.swift */; };
+		8DE159D42908B10200A94B34 /* BasicScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE159D32908B10200A94B34 /* BasicScreen.swift */; };
+		8DE159D62908BA2900A94B34 /* TextComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE159D52908BA2900A94B34 /* TextComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D1AC0AC290CBDF60026F465 /* BasicScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicScreenManager.swift; sourceTree = "<group>"; };
+		8D1AC0B5290CCC5E0026F465 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8D1AC0B7290D86D50026F465 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8D43966F290D9A2800C55178 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		8D439671290D9BF900C55178 /* HomeViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewManager.swift; sourceTree = "<group>"; };
+		8D439674290DB93C00C55178 /* BasicScreenDumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicScreenDumb.swift; sourceTree = "<group>"; };
+		8D439676290DC53400C55178 /* CopiedStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopiedStuff.swift; sourceTree = "<group>"; };
+		8D4C2115292315DD0071F0E0 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		8D739FC3290A10780082D838 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8DE159BB2908AB7700A94B34 /* Food Signs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Signs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DE159BE2908AB7700A94B34 /* Food_SignsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_SignsApp.swift; sourceTree = "<group>"; };
 		8DE159C02908AB7700A94B34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DE159C22908AB7900A94B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE159C42908AB7900A94B34 /* Food_Signs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Food_Signs.entitlements; sourceTree = "<group>"; };
 		8DE159C62908AB7900A94B34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DE159D12908ABFC00A94B34 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
+		8DE159D32908B10200A94B34 /* BasicScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicScreen.swift; sourceTree = "<group>"; };
+		8DE159D52908BA2900A94B34 /* TextComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +54,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1AC0B0290CBF8F0026F465 /* FirebaseAuth in Frameworks */,
+				8D1AC0B2290CBF8F0026F465 /* FirebaseFirestore in Frameworks */,
+				8D1AC0B4290CBF8F0026F465 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D439673290DB91B00C55178 /* DummyViews */ = {
+			isa = PBXGroup;
+			children = (
+				8D439674290DB93C00C55178 /* BasicScreenDumb.swift */,
+			);
+			path = DummyViews;
+			sourceTree = "<group>";
+		};
 		8DE159B22908AB7700A94B34 = {
 			isa = PBXGroup;
 			children = (
@@ -52,10 +90,14 @@
 		8DE159BD2908AB7700A94B34 /* Food Signs */ = {
 			isa = PBXGroup;
 			children = (
+				8DE159CF2908ABC500A94B34 /* Views */,
+				8DE159CE2908AB8B00A94B34 /* ViewModel */,
+				8DE159CD2908AB8200A94B34 /* Model */,
 				8DE159BE2908AB7700A94B34 /* Food_SignsApp.swift */,
 				8DE159C02908AB7700A94B34 /* ContentView.swift */,
 				8DE159C22908AB7900A94B34 /* Assets.xcassets */,
 				8DE159C42908AB7900A94B34 /* Food_Signs.entitlements */,
+				8D1AC0B5290CCC5E0026F465 /* GoogleService-Info.plist */,
 				8DE159C52908AB7900A94B34 /* Preview Content */,
 			);
 			path = "Food Signs";
@@ -67,6 +109,46 @@
 				8DE159C62908AB7900A94B34 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DE159CD2908AB8200A94B34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D739FC3290A10780082D838 /* Item.swift */,
+				8D43966F290D9A2800C55178 /* Screen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DE159CE2908AB8B00A94B34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC0AC290CBDF60026F465 /* BasicScreenManager.swift */,
+				8D439671290D9BF900C55178 /* HomeViewManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DE159CF2908ABC500A94B34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D439673290DB91B00C55178 /* DummyViews */,
+				8DE159D02908ABE600A94B34 /* Components */,
+				8DE159D32908B10200A94B34 /* BasicScreen.swift */,
+				8D1AC0B7290D86D50026F465 /* HomeView.swift */,
+				8D4C2115292315DD0071F0E0 /* EditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DE159D02908ABE600A94B34 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8DE159D12908ABFC00A94B34 /* AnimatedBackground.swift */,
+				8DE159D52908BA2900A94B34 /* TextComponents.swift */,
+				8D439676290DC53400C55178 /* CopiedStuff.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +167,11 @@
 			dependencies = (
 			);
 			name = "Food Signs";
+			packageProductDependencies = (
+				8D1AC0AF290CBF8F0026F465 /* FirebaseAuth */,
+				8D1AC0B1290CBF8F0026F465 /* FirebaseFirestore */,
+				8D1AC0B3290CBF8F0026F465 /* FirebaseFirestoreSwift */,
+			);
 			productName = "Food Signs";
 			productReference = 8DE159BB2908AB7700A94B34 /* Food Signs.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 8DE159B22908AB7700A94B34;
+			packageReferences = (
+				8D1AC0AE290CBF8F0026F465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8DE159BC2908AB7700A94B34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +219,7 @@
 			files = (
 				8DE159C72908AB7900A94B34 /* Preview Assets.xcassets in Resources */,
 				8DE159C32908AB7900A94B34 /* Assets.xcassets in Resources */,
+				8D1AC0B6290CCC5E0026F465 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +230,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D439677290DC53400C55178 /* CopiedStuff.swift in Sources */,
 				8DE159C12908AB7700A94B34 /* ContentView.swift in Sources */,
+				8D1AC0AD290CBDF60026F465 /* BasicScreenManager.swift in Sources */,
+				8DE159D62908BA2900A94B34 /* TextComponents.swift in Sources */,
+				8DE159D22908ABFC00A94B34 /* AnimatedBackground.swift in Sources */,
 				8DE159BF2908AB7700A94B34 /* Food_SignsApp.swift in Sources */,
+				8D439675290DB93C00C55178 /* BasicScreenDumb.swift in Sources */,
+				8D4C2116292315DE0071F0E0 /* EditView.swift in Sources */,
+				8D439670290D9A2800C55178 /* Screen.swift in Sources */,
+				8D1AC0B8290D86D50026F465 /* HomeView.swift in Sources */,
+				8D439672290D9BF900C55178 /* HomeViewManager.swift in Sources */,
+				8D739FC4290A10780082D838 /* Item.swift in Sources */,
+				8DE159D42908B10200A94B34 /* BasicScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +371,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Coffee Signs";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -287,10 +391,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coffeemate.Food-Signs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
@@ -307,6 +413,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Coffee Signs";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -325,10 +433,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coffeemate.Food-Signs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
@@ -354,6 +464,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D1AC0AE290CBF8F0026F465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D1AC0AF290CBF8F0026F465 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D1AC0AE290CBF8F0026F465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8D1AC0B1290CBF8F0026F465 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D1AC0AE290CBF8F0026F465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8D1AC0B3290CBF8F0026F465 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D1AC0AE290CBF8F0026F465 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8DE159B32908AB7700A94B34 /* Project object */;
 }
